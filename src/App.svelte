@@ -17,16 +17,17 @@
 
 <!-- Estilos-->
 <main>
-    <h3 class="headline">Meta de Lectura Anual</h3>
+    <h3 class="headline">Meta de lectura anual</h3>
     <BooksColumns numbers={numbers} />
     
 </main>
 
 <style>
     .headline {
-      text-align: left;
+      text-align: center;
       margin-top: 50px;
-      /* border: 1px solid red; */
+      margin-bottom: 50px;
+      font-size: 45px;
     }
   </style>
 
